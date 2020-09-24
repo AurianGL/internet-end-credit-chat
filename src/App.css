@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,83 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+button {
+	background-color: grey;
+	border: 3px solid white;
+	border-top-color: whitesmoke;
+	border-left-color: whitesmoke;
+	border-bottom-color: black;
+	border-right-color: black;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+input {
+	margin-right: 5px;
+	height: 30px;
+}
+
+body {
+	background-color: blue;
+}
+
+section {
+  scroll-behavior: auto;
+	background-color: grey;
+	width: fit-content;
+	padding: 5px;
+	border: 3px solid white;
+	border-top-color: whitesmoke;
+	border-left-color: whitesmoke;
+	border-bottom-color: black;
+	border-right-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	width: 400px;
+	background-color: purple;
+	padding: 5px;
+}
+
+.message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content;
+	padding: 3px;
+	border: 3px solid white;
+	border-top-color: whitesmoke;
+	border-left-color: whitesmoke;
+	border-bottom-color: black;
+	border-right-color: black;
+	margin: 5px;
+}
+
+.message.sent {
+	background-color: pink;
+	-ms-flex-align: end;
+	margin-left: auto;
+}
+
+.message.receive {
+	background-color: purple;
+	-ms-flex-align: end;
+
+	margin-left: right;
+}
+
+.message img {
+	height: 40px;
+	width: auto;
+	margin-right: 5px;
+	border: 3px solid white;
+	border-top-color: black;
+	border-left-color: black;
+	border-bottom-color: white;
+	border-right-color: white;
 }

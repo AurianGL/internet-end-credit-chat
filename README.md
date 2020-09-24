@@ -1,3 +1,8 @@
+This is a prototype to implement a chat on AurianGL.com
+it will run under Gatsby in production
+but for now it's done with CRA TS FIREBASE
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
